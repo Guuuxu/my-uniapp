@@ -1,0 +1,62 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "首页"
+		}
+	}, {
+		"path": "pages/home/index",
+		"style": {
+			"navigationBarTitleText": "列表",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/home/detail",
+		"style": {
+			"navigationBarTitleText": "列表详情"
+		}
+	}, {
+		"path": "pages/my/index",
+		"style": {
+			"navigationBarTitleText": "个人中心"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "花花",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon-home.png",
+				"selectedIconPath": "static/icon-home-active.png"
+			},
+
+			{
+				"pagePath": "pages/home/index",
+				"text": "列表",
+				"iconPath": "static/icon-list.png",
+				"selectedIconPath": "static/icon-list-active.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "static/icon-my.png",
+				"selectedIconPath": "static/icon-my-active.png"
+			}
+		]
+	}
+}
